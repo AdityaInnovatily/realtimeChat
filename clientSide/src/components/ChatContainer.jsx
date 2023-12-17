@@ -88,6 +88,7 @@ export default function ChatContainer({ currentChat, socket }) {
   }, [messages]);
 
   return (
+    
     <Container>
       <div className="chat-header">
         <div className="user-details">
